@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Profit & Loss Calculator</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/1465705b72.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>Stock Profit/Loss Calculator</h1>
+    </header>
+    <main>
+        <label class="input-label" for="initial-price">
+            Intial Price
+            <input class="input" type="text" id="initial-price" placeholder="Enter Initial Price Here" /></label>
+        <label class="input-label" for="stocks-quantity">
+            Quantity of Stocks
+            <input class="input" type="text" id="stocks-quantity" placeholder="Enter the Number of Stocks bought" />
+        </label>
+        <label class="input-label" for="current-price">Current Price
+            <input class="input" type="text" id="current-price"
+                placeholder="Enter the Current Price of the stocks" /></label>
+
+        <button id="submit-btn" class="btn-check">Check</button>
+
+        <div id="output-box" class="output"></div>
+    </main>
+    <footer>
+
+        <a href="https://github.com/kumarankit090"><i class="fab fa-github"></i></a>
+        <a href="https://twitter.com/kumarankit090"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/kumarankit090"><i class="fab fa-linkedin"></i></a>
+        <br>
+        <small>© Kumar Ankit 2022</small>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
